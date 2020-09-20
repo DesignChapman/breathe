@@ -4,6 +4,7 @@ chrome.browserAction.onClicked.addListener((tab) => {
     video.src = "breathe.mp4"
     video.autoplay = true
     video.loop = true
+    video.playbackRate = 1.3;
 
     video.onloadedmetadata = function() {
         video.requestPictureInPicture()

@@ -2,6 +2,9 @@
   "name": "Breathe gif",
   "version": "1.0",
   "description": "Open a gif with Picture in Picture",
+  "icons": { "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon128.png" },
   "background": {
     "scripts": ["background.js"],
     "persistent": true
